@@ -7,16 +7,16 @@
 
 using namespace std;
 
-void concatChar(string &, char);
+void concatChar(string &s, char a);
 
-void removeLastChar(string &);
+void removeLastChar(string &s);
 
-void validateString(string);
+void validateString(string str);
 
-void validateKValue(int);
+void validateKValue(int k);
 
-int findLastSubstringIndex(string, string);
+int findLastSubstringIndex(string t, string s);
 
-string ConcatRemove(string, string, int);
+string ConcatRemove(string s, string t, int k);
 
 #endif
