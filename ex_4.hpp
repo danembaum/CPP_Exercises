@@ -1,5 +1,5 @@
-#ifndef __EX_4__
-#define __EX_4__
+#ifndef __EX_4__HPP
+#define __EX_4__HPP
 
 #include <iostream>
 #include <string>
