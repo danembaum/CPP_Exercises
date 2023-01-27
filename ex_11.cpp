@@ -26,7 +26,9 @@ int main(int argc, char *argv[])
     /*Make a program in C/C++ or Java language that reverses a string informed by the user 
     without using any temporary variable, buffer or any pre-existing function or method for this*/
 
-    char *s = argv[1];
+    char *s;
+    cout<<"Enter the string: ";
+    cin>>s;
     int length = stringLength(s);
 
     int start=0;
