@@ -82,11 +82,16 @@ int main(int argc, char *argv[])
     string.
     */
 
-    string s = argv[1];
-    string t = argv[2];
-    char *p;
-    int k =  strtol(argv[3], &p, 10);
+    string s, t;
+    int k;
 
+    cout<<"Enter the s string: ";
+    cin>>s;
+    cout<<"Enter the t string: ";
+    cin>>t;
+    cout<<"Enter the k value: ";
+    cin>>k;
+    
     cout<<ConcatRemove(s, t, k)<<endl;
 
     return 0;
