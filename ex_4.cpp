@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include <stdexcept>
+#include "ex_4.hpp"
 
 using namespace std;
 
