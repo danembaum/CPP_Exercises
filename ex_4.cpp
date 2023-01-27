@@ -1,7 +1,5 @@
 #include "ex_4.hpp"
 
-using namespace std;
-
 void concatChar(string &s, char a){
     s+=a;
 
